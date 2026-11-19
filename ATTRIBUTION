@@ -1,0 +1,17 @@
+ConGuard public-pool candidate; transformed from these fixed inputs:
+Google Chrome UX Report country origins, September 2026, exported 2026-11-10 (CC BY 4.0), SHA-256 0cecb4279a511a53d0a1201e4fb464c43bbfc667b793e8dae7a077d35627a4cf
+https://developer.chrome.com/docs/crux/methodology
+Majestic Million, October 24 2026 snapshot (CC BY 3.0), SHA-256 66918a08c03771c0f84ba5bef6288b053e81f3b1d961769b2e7fe249ad1e247c
+https://majestic.com/reports/majestic-million
+ConGuard curated fallback curated-g3-7eee73a51e6c (ISC), SHA-256 83650a18b00d3a5d4b5d65d86900ea4457d5dc441cc98d97e6b2fd183d36a4fc
+https://github.com/orkhaniumm/conguard
+CrUX origins were reduced with the extension public-suffix parser; Majestic global rank orders every selection.
+IANA example domains, reviewed source artifacts, adult and shortener domains, and generic automatic labels are excluded; global selection takes the top 100 widely visited domains before exclusions, with no refill. Curated records remain explicit review decisions.
+Generated records default to full-domain subdomain matching; bare-label matching is enabled only for the reviewed opt-ins: facebook.com, google.com, instagram.com, whatsapp.com. Curated records retain bare-label matching.
+Global list: up to 100 domains in the top bucket of at least 100 countries, plus the curated records.
+Country lists: up to 150 domains outside the global list in the top bucket of at most 12 countries.
+Generated country records omit labels of 4 or more but fewer than 5 characters.
+Countries with no data or fewer than 50 source domains have no list: the global list covers them.
+A site on a bare public suffix (for example gov.uk) is listed under the country of its suffix.
+Exclusions applied (1282 domains), SHA-256 c85fa902c95b12559e1dfe0c69f385d443d39d3286d7c58012752149559baf1e
+Reviewed country targets are appended to their assigned country lists when absent from the global and country selections.
